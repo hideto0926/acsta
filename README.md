@@ -19,9 +19,9 @@ cd web && python3 -m http.server 8765
 
 ## 公開（GitHub Pages）
 
-1. この `web` フォルダの中身をリポジトリ（例: `hideto0926/acsta`）の `main` ブランチ直下に置いて push
+1. この `web` フォルダの中身をリポジトリ `hideto0926/acstaBox` の `main` ブランチ直下に置いて push
 2. Settings → Pages → Branch: `main` / `/ (root)`
-3. `https://hideto0926.github.io/acsta/` と `…/acsta/privacy.html` を App Store Connect に登録
+3. `https://hideto0926.github.io/acstaBox/` と `…/acstaBox/privacy.html` を App Store Connect に登録
 
 `.nojekyll` は Jekyll の変換を止めるためのもの（消さない）。
 App Store のリンクは公開後に `index.html` の App Store ボタンの `href` を差し替える。
